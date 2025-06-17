@@ -1,0 +1,23 @@
+# Ignore virtual environments
+venv/
+.venv/
+LLM_Prompt.txt
+# Ignore Streamlit and Python cache
+__pycache__/
+*.py[cod]
+*.pyo
+*.pyd
+*.sqlite3
+
+# Ignore OS files
+.DS_Store
+Thumbs.db
+
+# Ignore Streamlit config history
+.streamlit/config.toml
+
+# Ignore IDE-specific files (like from PyCharm)
+.idea/
+
+# Ignore notebook checkpoints
+.ipynb_checkpoints/
